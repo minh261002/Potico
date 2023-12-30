@@ -25,3 +25,21 @@ p {
   box-shadow: none;
   border-color: #000;
 }
+
+.btn-form {
+  width: 100%;
+  font-size: 18px;
+  font-weight: 500;
+  padding: 7px 0;
+  border: none;
+  outline: none;
+  color: #fff;
+  background-color: #f79f8e;
+  opacity: 0.8;
+  border-radius: 4px;
+  transition: 0.3s all ease-in-out;
+}
+
+.btn-form:hover {
+  opacity: 1;
+}
