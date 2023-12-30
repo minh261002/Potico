@@ -1,0 +1,27 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+li {
+  list-style: none;
+}
+
+a {
+  text-decoration: none;
+}
+
+p {
+  margin-bottom: 0 !important;
+}
+
+.form-custom {
+  width: 50%;
+  margin: 0 auto;
+}
+
+.form-control:focus {
+  box-shadow: none;
+  border-color: #000;
+}

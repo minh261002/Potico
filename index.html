@@ -1,0 +1,136 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Potico - Hoa & Quà Tặng Người Thương</title>
+  <!-- favicon -->
+  <link rel="icon" href="./public/favicon.webp">
+  <!-- bootstrap -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+  <!-- fontawesome -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+  <!-- css -->
+  <link rel="stylesheet" href="./assets/css/style.css">
+  <link rel="stylesheet" href="./assets/css/global.css">
+</head>
+
+<body>
+  <!-- Header -->
+  <header class="header">
+    <div class="header__top">
+      <p>Giảm 50K cho đơn hàng trên 300K khi nhập mã CHAOBAN50</p>
+    </div>
+
+    <div class="header__middle">
+
+      <div class="container">
+
+        <div class="header__middle-logo">
+          <img src="./assets/img/logo.webp" alt="">
+        </div>
+
+        <form class="header__middle-form-search">
+          <input type="search" name="search" id="search" placeholder="Tìm Kiếm Sản Phẩm">
+          <button type="submit"><i class="fa-solid fa-magnifying-glass"></i></button>
+        </form>
+
+        <div class="header__middle-other">
+          <div class="header__middle-other-item dropdown-toggle d-flex align-items-center justify-content-center gap-1"
+            type="button" data-bs-toggle="dropdown" aria-expanded="false">
+            <i class="fa-solid fa-user"></i>Tài Khoản
+
+            <ul class="dropdown-menu">
+              <li><a class="dropdown-item" href="register.html">Đăng Ký</a></li>
+              <li><a class="dropdown-item" href="login.html">Đăng Nhập</a></li>
+            </ul>
+          </div>
+
+          <div class="header__middle-other-item item-shopping-cart d-flex align-items-center justify-content-center">
+            <i class="fa-solid fa-bag-shopping"></i>
+          </div>
+        </div>
+
+      </div>
+    </div>
+
+    <ul class="header__menu">
+      <li>
+        <a href="" class="menu-link">Trang Chủ</a>
+      </li>
+
+      <li type="button" data-bs-toggle="dropdown" aria-expanded="false">
+        <div class="gr-drop">
+          <a href="" class="menu-link">Sản Phẩm</a>
+          <i class="fa fa-chevron-down" aria-hidden="true"></i>
+        </div>
+
+        <ul class="dropdown-menu">
+          <li><a class="dropdown-item" href="#">Action</a></li>
+          <li><a class="dropdown-item" href="#">Another action</a></li>
+          <li><a class="dropdown-item" href="#">Something else here</a></li>
+        </ul>
+      </li>
+
+      <li>
+        <a href="" class="menu-link">Giới Thiệu</a>
+      </li>
+
+      <li>
+        <a href="" class="menu-link">Tin Tức</a>
+      </li>
+
+      <li>
+        <a href="" class="menu-link">Tuyển Dụng</a>
+      </li>
+
+    </ul>
+  </header>
+  <!-- /Header -->
+
+  <main class="main">
+    <!-- carousel -->
+    <section class="carousel">
+      <div class="container">
+        <div id="carouselExample" class="carousel slide">
+          <div class="carousel-inner">
+            <div class="carousel-item active">
+              <img src="./assets/img/banner1.gif" class="d-block w-100" alt="...">
+            </div>
+            <div class="carousel-item">
+              <img src="./assets/img/banner2.gif" class="d-block w-100" alt="...">
+            </div>
+          </div>
+          <button class="carousel-control-prev" type="button" data-bs-target="#carouselExample" data-bs-slide="prev">
+            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Previous</span>
+          </button>
+          <button class="carousel-control-next" type="button" data-bs-target="#carouselExample" data-bs-slide="next">
+            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Next</span>
+          </button>
+        </div>
+
+        <div class="banner">
+          <div class="banner-item">
+            <img src="./assets/img/banner3.gif" alt="" width="100%">
+          </div>
+          <div class="banner-item">
+            <img src="./assets/img/banner4.gif" alt="" width="100%">
+          </div>
+        </div>
+      </div>
+    </section>
+  </main>
+  <!-- bootstrap -->
+  <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.8/dist/umd/popper.min.js"
+    integrity="sha384-I7E8VVD/ismYTF4hNIPjVp/Zjvgyol6VFvRkX/vR+Vc4jQkC+hVqc2pM8ODewa9r"
+    crossorigin="anonymous"></script>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.min.js"
+    integrity="sha384-BBtl+eGJRgqQAUMxJ7pMwbEyER4l1g+O15P+16Ep7Q9Q+zqX6gSbd85u4mG4QzX+"
+    crossorigin="anonymous"></script>
+</body>
+
+</html>
